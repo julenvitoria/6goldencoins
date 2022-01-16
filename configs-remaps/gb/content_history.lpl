@@ -1,0 +1,75 @@
+{
+  "version": "1.4",
+  "default_core_path": "",
+  "default_core_name": "",
+  "label_display_mode": 0,
+  "right_thumbnail_mode": 0,
+  "left_thumbnail_mode": 0,
+  "sort_mode": 2,
+  "items": [
+    {
+      "path": "/home/pi/RetroPie/roms/gb/Super Mario Land 2 - 6 Golden Coins (USA, Europe) (Rev B).7z",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-gambatte/gambatte_libretro.so",
+      "core_name": "Gambatte",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/gb/Milon's Secret Castle (USA, Europe).7z",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-gambatte/gambatte_libretro.so",
+      "core_name": "Gambatte",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/gb/Adventure Island (USA, Europe).7z",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-gambatte/gambatte_libretro.so",
+      "core_name": "Gambatte",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/gb/#ROMS - HACKS - Game Boy/Super Mario Land (COLOR)(H).7z",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-gambatte/gambatte_libretro.so",
+      "core_name": "Gambatte",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/gb/#ROMS - Español-Traducidos - Game Boy/Bugs Bunny Crazy Castle 2, The (U) [T-Spa1.0v_Wave].7z",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-gambatte/gambatte_libretro.so",
+      "core_name": "Gambatte",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/gb/#ROMS - Japon pack - ciskohansen/SD Saint Seiya Paradise - Saikyou no Senshitachi.7z",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-gambatte/gambatte_libretro.so",
+      "core_name": "Gambatte",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/gb/Super Mario Land (World) (Rev A).7z",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-gambatte/gambatte_libretro.so",
+      "core_name": "Gambatte",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/gb/Kid Dracula (USA, Europe).7z",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-gambatte/gambatte_libretro.so",
+      "core_name": "Gambatte",
+      "crc32": "",
+      "db_name": ""
+    }
+  ]
+}

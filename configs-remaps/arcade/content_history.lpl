@@ -1,0 +1,947 @@
+{
+  "version": "1.4",
+  "default_core_path": "",
+  "default_core_name": "",
+  "label_display_mode": 0,
+  "right_thumbnail_mode": 0,
+  "left_thumbnail_mode": 0,
+  "sort_mode": 2,
+  "items": [
+    {
+      "path": "/home/pi/RetroPie/roms/arcade/alpham2.7z",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-fbneo/fbneo_libretro.so",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/arcade/altbeast.zip",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-fbneo/fbneo_libretro.so",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/arcade/1944.zip",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-fbneo/fbneo_libretro.so",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/arcade/wjammers.zip",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-fbneo/fbneo_libretro.so",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/arcade/1941.zip",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-fbneo/fbneo_libretro.so",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/arcade/gtmr.zip",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-fbneo/fbneo_libretro.so",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/arcade/1942.zip",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-fbneo/fbneo_libretro.so",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/arcade/sonicwi3.zip",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-fbneo/fbneo_libretro.so",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/arcade/sonicwi2.zip",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-fbneo/fbneo_libretro.so",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/arcade/88games.zip",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-fbneo/fbneo_libretro.so",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/arcade/photoy2k.zip",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-fbneo/fbneo_libretro.so",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/arcade/shangha3.zip",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-mame2003/mame2003_libretro.so",
+      "core_name": "MAME 2003 (0.78)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/arcade/ddp3.zip",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-fbneo/fbneo_libretro.so",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/arcade/ddp2.zip",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-fbneo/fbneo_libretro.so",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/arcade/ddpdoj.zip",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-fbneo/fbneo_libretro.so",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/arcade/ddonpach.zip",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-fbneo/fbneo_libretro.so",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/arcade/hachamf.zip",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-mame2003-plus/mame2003_plus_libretro.so",
+      "core_name": "MAME 2003-Plus",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/arcade/uopoko.zip",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-fbneo/fbneo_libretro.so",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/arcade/theglad.zip",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-fbneo/fbneo_libretro.so",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/arcade/orlegend.zip",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-fbneo/fbneo_libretro.so",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/arcade/martmast.zip",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-fbneo/fbneo_libretro.so",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/arcade/kov2.zip",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-fbneo/fbneo_libretro.so",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/arcade/kov.zip",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-fbneo/fbneo_libretro.so",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/arcade/killbld.zip",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-fbneo/fbneo_libretro.so",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/arcade/dmnfrnt.zip",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-fbneo/fbneo_libretro.so",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/arcade/umk3.zip",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-mame2003-plus/mame2003_plus_libretro.so",
+      "core_name": "MAME 2003-Plus",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/arcade/mk3.zip",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-mame2003/mame2003_libretro.so",
+      "core_name": "MAME 2003 (0.78)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/arcade/mk2.zip",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-mame2003-plus/mame2003_plus_libretro.so",
+      "core_name": "MAME 2003-Plus",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/arcade/mk.zip",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-mame2003/mame2003_libretro.so",
+      "core_name": "MAME 2003 (0.78)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/arcade/# Hacks Arcade Games #/umk3.zip",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-mame2003-plus/mame2003_plus_libretro.so",
+      "core_name": "MAME 2003-Plus",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/arcade/# Hacks Arcade Games #/mk2.zip",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-mame2003-plus/mame2003_plus_libretro.so",
+      "core_name": "MAME 2003-Plus",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/arcade/# Hacks Arcade Games #/mk2.zip",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-mame2003/mame2003_libretro.so",
+      "core_name": "MAME 2003 (0.78)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/arcade/umk3.zip",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-mame2003/mame2003_libretro.so",
+      "core_name": "MAME 2003 (0.78)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/arcade/hcastle.zip",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-fbneo/fbneo_libretro.so",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/arcade/mk2.zip",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-mame2003/mame2003_libretro.so",
+      "core_name": "MAME 2003 (0.78)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/arcade/abcop.zip",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-fbneo/fbneo_libretro.so",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/arcade/abcop.zip",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-mame2010/mame2010_libretro.so",
+      "core_name": "MAME 2010",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/arcade/wrally2.zip",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-fbneo/fbneo_libretro.so",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/arcade/zingzip.zip",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-fbneo/fbneo_libretro.so",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/arcade/005.zip",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-mame2010/mame2010_libretro.so",
+      "core_name": "MAME 2010",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/arcade/crush.zip",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-fbneo/fbneo_libretro.so",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/arcade/maketrax.zip",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-fbneo/fbneo_libretro.so",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/arcade/nslashers.zip",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-fbneo/fbneo_libretro.so",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/arcade/nslasher.zip",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-fbneo/fbneo_libretro.so",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/arcade/nslasher.zip",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-mame2003-plus/mame2003_plus_libretro.so",
+      "core_name": "MAME 2003-Plus",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/arcade/galastrm.zip",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-fbneo/fbneo_libretro.so",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/arcade/crazywar.zip",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-fbneo/fbneo_libretro.so",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/arcade/x2222.zip",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-fbneo/fbneo_libretro.so",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/arcade/vamphalf.zip",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-fbneo/fbneo_libretro.so",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/arcade/scudhamm.zip",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-fbneo/fbneo_libretro.so",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/arcade/wildplt.zip",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-fbneo/fbneo_libretro.so",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/arcade/f1gpstar.zip",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-fbneo/fbneo_libretro.so",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/arcade/bigrun.zip",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-fbneo/fbneo_libretro.so",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/arcade/vidvince.zip",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-fbneo/fbneo_libretro.so",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/arcade/wizwarz.zip",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-fbneo/fbneo_libretro.so",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/arcade/screwloo.zip",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-mame2003/mame2003_libretro.so",
+      "core_name": "MAME 2003 (0.78)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/arcade/screwloo.zip",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-fbneo/fbneo_libretro.so",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/arcade/reactor.zip",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-fbneo/fbneo_libretro.so",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/arcade/kngtmare.zip",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-fbneo/fbneo_libretro.so",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/arcade/tylz.zip",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-fbneo/fbneo_libretro.so",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/arcade/gondou.zip",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-fbneo/fbneo_libretro.so",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/arcade/moonwlkb.zip",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-mame2003-plus/mame2003_plus_libretro.so",
+      "core_name": "MAME 2003-Plus",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/arcade/opaopa.zip",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-fbneo/fbneo_libretro.so",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/arcade/xmen6p.zip",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-mame2010/mame2010_libretro.so",
+      "core_name": "MAME 2010",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/arcade/hotchase.zip",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-fbneo/fbneo_libretro.so",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/arcade/wecleman.zip",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-fbneo/fbneo_libretro.so",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/arcade/cubybop.zip",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-fbneo/fbneo_libretro.so",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/arcade/crazywar.zip",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-mame2010/mame2010_libretro.so",
+      "core_name": "MAME 2010",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/arcade/vamphalf.zip",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-mame2003/mame2003_libretro.so",
+      "core_name": "MAME 2003 (0.78)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/arcade/vamphalf.zip",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-mame2003-plus/mame2003_plus_libretro.so",
+      "core_name": "MAME 2003-Plus",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/arcade/scudhamm.zip",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-mame2003-plus/mame2003_plus_libretro.so",
+      "core_name": "MAME 2003-Plus",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/arcade/scudhamm.zip",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-mame2003/mame2003_libretro.so",
+      "core_name": "MAME 2003 (0.78)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/arcade/wildplt.zip",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-mame2010/mame2010_libretro.so",
+      "core_name": "MAME 2010",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/arcade/f1gpstar.zip",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-mame2003-plus/mame2003_plus_libretro.so",
+      "core_name": "MAME 2003-Plus",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/arcade/f1gpstar.zip",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-mame2010/mame2010_libretro.so",
+      "core_name": "MAME 2010",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/arcade/vidvince.zip",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-mame2010/mame2010_libretro.so",
+      "core_name": "MAME 2010",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/arcade/wizwarz.zip",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-mame2010/mame2010_libretro.so",
+      "core_name": "MAME 2010",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/arcade/screwloo.zip",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-mame2003-plus/mame2003_plus_libretro.so",
+      "core_name": "MAME 2003-Plus",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/arcade/reactor.zip",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-mame2003/mame2003_libretro.so",
+      "core_name": "MAME 2003 (0.78)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/arcade/kngtmare.zip",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-mame2003-plus/mame2003_plus_libretro.so",
+      "core_name": "MAME 2003-Plus",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/arcade/tylz.zip",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-mame2010/mame2010_libretro.so",
+      "core_name": "MAME 2010",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/arcade/gondo.zip",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-mame2003-plus/mame2003_plus_libretro.so",
+      "core_name": "MAME 2003-Plus",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/arcade/gondo.zip",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-mame2003/mame2003_libretro.so",
+      "core_name": "MAME 2003 (0.78)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/arcade/galastrm.zip",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-mame2010/mame2010_libretro.so",
+      "core_name": "MAME 2010",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/arcade/xmen6p.zip",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-mame2003-plus/mame2003_plus_libretro.so",
+      "core_name": "MAME 2003-Plus",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/arcade/hotchase.zip",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-mame2003/mame2003_libretro.so",
+      "core_name": "MAME 2003 (0.78)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/arcade/hotchase.zip",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-mame2003-plus/mame2003_plus_libretro.so",
+      "core_name": "MAME 2003-Plus",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/arcade/wecleman.zip",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-mame2003/mame2003_libretro.so",
+      "core_name": "MAME 2003 (0.78)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/arcade/wecleman.zip",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-mame2003-plus/mame2003_plus_libretro.so",
+      "core_name": "MAME 2003-Plus",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/arcade/25pacmano.zip",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-fbneo/fbneo_libretro.so",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/arcade/gtmr2.zip",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-fbneo/fbneo_libretro.so",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/arcade/wwfmania.zip",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-mame2003-plus/mame2003_plus_libretro.so",
+      "core_name": "MAME 2003-Plus",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/arcade/rmpgwt.zip",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-mame2003-plus/mame2003_plus_libretro.so",
+      "core_name": "MAME 2003-Plus",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/arcade/openice.zip",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-mame2003-plus/mame2003_plus_libretro.so",
+      "core_name": "MAME 2003-Plus",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/arcade/nbahangt.zip",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-mame2003-plus/mame2003_plus_libretro.so",
+      "core_name": "MAME 2003-Plus",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/arcade/maze.zip",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-mame2010/mame2010_libretro.so",
+      "core_name": "MAME 2010",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/arcade/kram.zip",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-mame2003-plus/mame2003_plus_libretro.so",
+      "core_name": "MAME 2003-Plus",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/arcade/rungun.zip",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-mame2003-plus/mame2003_plus_libretro.so",
+      "core_name": "MAME 2003-Plus",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/arcade/skysoldr.zip",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-fbneo/fbneo_libretro.so",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/arcade/exzisust.zip",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-fbneo/fbneo_libretro.so",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/arcade/robocop2.zip",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-mame2003-plus/mame2003_plus_libretro.so",
+      "core_name": "MAME 2003-Plus",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/arcade/robocop2j.zip",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-fbneo/fbneo_libretro.so",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/arcade/sf.zip",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-fbneo/fbneo_libretro.so",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/arcade/dogfgt.zip",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-fbneo/fbneo_libretro.so",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/arcade/aburner.zip",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-mame2003-plus/mame2003_plus_libretro.so",
+      "core_name": "MAME 2003-Plus",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/arcade/commando.zip",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-fbneo/fbneo_libretro.so",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/arcade/commsega.zip",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-fbneo/fbneo_libretro.so",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/arcade/aliens.zip",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-fbneo/fbneo_libretro.so",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/arcade/alien3.zip",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-mame2003-plus/mame2003_plus_libretro.so",
+      "core_name": "MAME 2003-Plus",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/arcade/commsega.zip",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-mame2003-plus/mame2003_plus_libretro.so",
+      "core_name": "MAME 2003-Plus",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/arcade/thndrbld.zip",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-fbneo/fbneo_libretro.so",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/arcade/truxton.zip",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-mame2003-plus/mame2003_plus_libretro.so",
+      "core_name": "MAME 2003-Plus",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/arcade/simpsons.zip",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-fbneo/fbneo_libretro.so",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/arcade/robocop2.zip",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-fbneo/fbneo_libretro.so",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/arcade/dbz2.zip",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-mame2003-plus/mame2003_plus_libretro.so",
+      "core_name": "MAME 2003-Plus",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/arcade/dbz2.zip",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-fbneo/fbneo_libretro.so",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/arcade/relief.zip",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-mame2003-plus/mame2003_plus_libretro.so",
+      "core_name": "MAME 2003-Plus",
+      "crc32": "",
+      "db_name": ""
+    }
+  ]
+}

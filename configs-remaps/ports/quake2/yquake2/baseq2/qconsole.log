@@ -1,0 +1,204 @@
+Console initialized.
+
+------- sound initialization -------
+LoadLibrary(libopenal.so.1)
+...opening OpenAL device:ok
+...creating OpenAL context: ok
+...making context current: ok
+
+OpenAL settings:
+AL_VENDOR: OpenAL Community
+AL_RENDERER: OpenAL Soft
+AL_VERSION: 1.1 ALSOFT 1.19.1
+AL_EXTENSIONS: AL_EXT_ALAW AL_EXT_BFORMAT AL_EXT_DOUBLE AL_EXT_EXPONENT_DISTANCE AL_EXT_FLOAT32 AL_EXT_IMA4 AL_EXT_LINEAR_DISTANCE AL_EXT_MCFORMATS AL_EXT_MULAW AL_EXT_MULAW_BFORMAT AL_EXT_MULAW_MCFORMATS AL_EXT_OFFSET AL_EXT_source_distance_model AL_EXT_SOURCE_RADIUS AL_EXT_STEREO_ANGLES AL_LOKI_quadriphonic AL_SOFT_block_alignment AL_SOFT_deferred_updates AL_SOFT_direct_channels AL_SOFTX_events AL_SOFTX_filter_gain_ex AL_SOFT_gain_clamp_ex AL_SOFT_loop_points AL_SOFTX_map_buffer AL_SOFT_MSADPCM AL_SOFT_source_latency AL_SOFT_source_length AL_SOFT_source_resampler AL_SOFT_source_spatialize
+
+Available OpenAL devices:
+- ALSA Default
+- bcm2835 HDMI 1, bcm2835 HDMI 1 (CARD=b1,DEV=0)
+- bcm2835 Headphones, bcm2835 Headphones (CARD=Headphones,DEV=0)
+
+Current OpenAL device:
+- OpenAL Soft
+
+Number of OpenAL sources: 31
+
+Sound sampling rate: 0
+------------------------------------
+
+SDL version is: 2.0.10
+SDL video driver is "RPI".
+----- refresher initialization -----
+LoadLibrary(ref_soft.so)
+Byte ordering: little endian
+
+setting mode 10: 1024 768
+Allocated 1024 surfaces
+Allocated 2048 edges
+Allocated 2048 verts
+Allocated 768 triangles
+2888k surface cache
+ref_soft version: SOFT 0.01
+Successfully loaded ref_soft.so as rendering backend
+------------------------------------
+
+------- input initialization -------
+1 joysticks were found.
+The name of the joystick is 'Microsoft X-Box 360 pad'
+Number of Axes: 4
+Number of Buttons: 13
+Number of Balls: 0
+Number of Hats: 1
+Joystic/Mouse haptic:
+ * 16 effects
+ * 16 effects in same time
+ * 2 haptic axis
+Controller settings: 030000005e0400008e02000010010000,X360 Controller,a:b0,b:b1,back:b6,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b8,leftshoulder:b4,leftstick:b9,lefttrigger:a2,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b10,righttrigger:a5,rightx:a3,righty:a4,start:b7,x:b2,y:b3,
+Controller axis: 
+ * leftx = sidemove
+ * lefty = forwardmove
+ * rightx = yaw
+ * righty = pitch
+ * triggerleft = triggerleft
+ * triggerright = triggerright
+Controller thresholds: 
+ * leftx = 0.150000
+ * lefty = 0.150000
+ * rightx = 0.150000
+ * righty = 0.150000
+ * triggerleft = 0.150000
+ * triggerright = 0.150000
+
+Back button JOY7 will be unbindable.
+------------------------------------
+
+------- curl initialization -------
+LoadLibrary(libcurl.so.4)
+------------------------------------
+
+-------- game initialization -------
+LoadLibrary("game.so")
+Game is starting up.
+Game is baseq2 built on Apr 21 2020.
+------------------------------------
+
+------- server initialization ------
+0 entities inhibited.
+0 teams with 0 entities.
+------------------------------------
+
+==== Yamagi Quake II Initialized ====
+
+*************************************
+
+[0.0.0.0]:0: client_connect
+------- server initialization ------
+0 entities inhibited.
+0 teams with 0 entities.
+------------------------------------
+
+
+Changing map...
+reconnecting...
+
+
+-===================================-
+
+ Installation
+Map: base2                                     pics                                     maps/base2.bsp                                     models/weapons/v_blast/tris.md2                                     models/objects/gibs/sm_meat/tris.md2                                     models/objects/gibs/arm/tris.md2                                     models/objects/gibs/bone/tris.md2                                     models/objects/gibs/bone2/tris.md2                                     models/objects/gibs/chest/tris.md2                                     models/objects/gibs/skull/tris.md2                                     models/objects/gibs/head2/tris.md2                                     models/monsters/gunner/tris.md2                                     models/monsters/infantry/tris.md2                                     models/monsters/soldier/tris.md2                                     models/objects/laser/tris.md2                                     models/deadbods/dude/tris.md2                                     models/items/ammo/shells/medium/tris.                                     models/items/healing/medium/tris.md2                                     models/weapons/g_shotg/tris.md2                                     models/weapons/v_shotg/tris.md2                                     weapons/v_shotg/flash2/tris.md2                                     models/items/armor/shard/tris.md2                                     models/items/ammo/bullets/medium/tris                                     models/items/ammo/grenades/medium/tri                                     models/weapons/v_handgr/tris.md2                                     models/items/healing/large/tris.md2                                     models/monsters/flyer/tris.md2                                     models/items/healing/stimpack/tris.md                                     models/items/armor/jacket/tris.md2                                     models/objects/debris1/tris.md2                                     models/objects/debris2/tris.md2                                     models/objects/debris3/tris.md2                                     models/objects/barrels/tris.md2                                     models/weapons/g_shotg2/tris.md2                                     models/weapons/v_shotg2/tris.md2                                     models/weapons/g_machn/tris.md2                                     models/weapons/v_machn/tris.md2                                     models/objects/gibs/head/tris.md2                                     models/items/quaddama/tris.md2                                     images                                     client 0                                     sky                                     OGG_PlayTrack: 7 out of range.
+HAT_DOWN is unbound, hit F4 to set.
+HAT_DOWN is unbound, hit F4 to set.
+HAT_DOWN is unbound, hit F4 to set.
+HAT_DOWN is unbound, hit F4 to set.
+HAT_DOWN is unbound, hit F4 to set.
+HAT_DOWN is unbound, hit F4 to set.
+HAT_UP is unbound, hit F4 to set.
+HAT_UP is unbound, hit F4 to set.
+JOY2 is unbound, hit F4 to set.
+JOY2 is unbound, hit F4 to set.
+HAT_RIGHT is unbound, hit F4 to set.
+HAT_RIGHT is unbound, hit F4 to set.
+HAT_RIGHT is unbound, hit F4 to set.
+HAT_RIGHT is unbound, hit F4 to set.
+HAT_RIGHT is unbound, hit F4 to set.
+HAT_RIGHT is unbound, hit F4 to set.
+HAT_RIGHT is unbound, hit F4 to set.
+HAT_RIGHT is unbound, hit F4 to set.
+HAT_RIGHT is unbound, hit F4 to set.
+HAT_RIGHT is unbound, hit F4 to set.
+HAT_DOWN is unbound, hit F4 to set.
+HAT_DOWN is unbound, hit F4 to set.
+HAT_RIGHT is unbound, hit F4 to set.
+HAT_RIGHT is unbound, hit F4 to set.
+HAT_RIGHT is unbound, hit F4 to set.
+HAT_RIGHT is unbound, hit F4 to set.
+HAT_RIGHT is unbound, hit F4 to set.
+HAT_RIGHT is unbound, hit F4 to set.
+HAT_LEFT is unbound, hit F4 to set.
+HAT_LEFT is unbound, hit F4 to set.
+HAT_DOWN is unbound, hit F4 to set.
+HAT_DOWN is unbound, hit F4 to set.
+HAT_DOWN is unbound, hit F4 to set.
+HAT_DOWN is unbound, hit F4 to set.
+HAT_DOWN is unbound, hit F4 to set.
+HAT_DOWN is unbound, hit F4 to set.
+HAT_DOWN is unbound, hit F4 to set.
+HAT_DOWN is unbound, hit F4 to set.
+HAT_DOWN is unbound, hit F4 to set.
+HAT_DOWN is unbound, hit F4 to set.
+HAT_DOWN is unbound, hit F4 to set.
+HAT_DOWN is unbound, hit F4 to set.
+HAT_DOWN is unbound, hit F4 to set.
+HAT_DOWN is unbound, hit F4 to set.
+JOY2 is unbound, hit F4 to set.
+JOY2 is unbound, hit F4 to set.
+HAT_UP is unbound, hit F4 to set.
+HAT_UP is unbound, hit F4 to set.
+HAT_UP is unbound, hit F4 to set.
+HAT_UP is unbound, hit F4 to set.
+HAT_UP is unbound, hit F4 to set.
+HAT_UP is unbound, hit F4 to set.
+HAT_UP is unbound, hit F4 to set.
+HAT_UP is unbound, hit F4 to set.
+HAT_UP is unbound, hit F4 to set.
+HAT_UP is unbound, hit F4 to set.
+HAT_UP is unbound, hit F4 to set.
+HAT_UP is unbound, hit F4 to set.
+HAT_UP is unbound, hit F4 to set.
+HAT_UP is unbound, hit F4 to set.
+HAT_LEFT is unbound, hit F4 to set.
+HAT_LEFT is unbound, hit F4 to set.
+HAT_UP is unbound, hit F4 to set.
+HAT_UP is unbound, hit F4 to set.
+HAT_LEFT is unbound, hit F4 to set.
+HAT_LEFT is unbound, hit F4 to set.
+HAT_LEFT is unbound, hit F4 to set.
+HAT_LEFT is unbound, hit F4 to set.
+HAT_LEFT is unbound, hit F4 to set.
+HAT_LEFT is unbound, hit F4 to set.
+HAT_DOWN is unbound, hit F4 to set.
+HAT_DOWN is unbound, hit F4 to set.
+HAT_RIGHT is unbound, hit F4 to set.
+HAT_RIGHT is unbound, hit F4 to set.
+HAT_RIGHT is unbound, hit F4 to set.
+HAT_RIGHT is unbound, hit F4 to set.
+HAT_RIGHT is unbound, hit F4 to set.
+HAT_RIGHT is unbound, hit F4 to set.
+HAT_RIGHT is unbound, hit F4 to set.
+HAT_RIGHT is unbound, hit F4 to set.
+HAT_DOWN is unbound, hit F4 to set.
+HAT_DOWN is unbound, hit F4 to set.
+HAT_DOWN is unbound, hit F4 to set.
+HAT_DOWN is unbound, hit F4 to set.
+HAT_DOWN is unbound, hit F4 to set.
+HAT_DOWN is unbound, hit F4 to set.
+HAT_UP is unbound, hit F4 to set.
+HAT_UP is unbound, hit F4 to set.
+JOY2 is unbound, hit F4 to set.
+JOY2 is unbound, hit F4 to set.
+JOY2 is unbound, hit F4 to set.
+
+----------- shutting down ----------
+==== ShutdownGame ====
+Shutting down curl.
+Shutting down OpenAL.
+Shutting down input.
