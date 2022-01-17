@@ -72,7 +72,7 @@ fi
 
 #Instalar fix installgamelist
 wget -O- https://raw.githubusercontent.com/julenvitoria/6goldencoins/main/menu-addons/installgamelist.sh>/home/pi/RetroPie/retropiemenu/#Menu-Addons/#fixes/installgamelist.sh
-chmod +x /home/pi/RetroPie/retropiemenu/#Menu-Addons/#Fixes/installgamelist.sh
+chmod +x /home/pi/RetroPie/retropiemenu/#Menu-Addons/#fixes/installgamelist.sh
 if grep -q "installgamelist.sh" /opt/retropie/configs/all/emulationstation/gamelists/retropie/gamelist.xml ; then
         echo "El fix installgamelist ya se encuentra gamelist.xml"
 else
