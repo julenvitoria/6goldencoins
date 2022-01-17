@@ -76,7 +76,7 @@ chmod +x /home/pi/RetroPie/retropiemenu/#Menu-Addons/#fixes/installgamelist.sh
 if grep -q "installgamelist.sh" /opt/retropie/configs/all/emulationstation/gamelists/retropie/gamelist.xml ; then
         echo "El fix installgamelist ya se encuentra gamelist.xml"
 else
-        sed -i 's|</gameList>|\t<game>\n\t\t<path>./#Menu-Addons/#fixes/installgamelist.sh</path>\n\t\t<name>Reinstalar Addons-Menu con gamelist original de retropie</name>\n\t\t<desc>Script para reinstalar el menu de addons descargando el gamelist del menu retropie original (necesario si cambio los nombres de los addons en gamelist.xml).</desc>\n\t\t<image></image>\n\t\t<playcount>0</playcount>\n\t\t<lastplayed>20180514T205700</lastplayed>\n\t</game>\n</gameList>|' /opt/retropie/configs/all/emulationstation/gamelists/retropie/gamelist.xml
+        sed -i 's|</gameList>|\t<game>\n\t\t<path>./#Menu-Addons/#fixes/installgamelist.sh</path>\n\t\t<name>Reinstalar Menu-Addons con gamelist original de retropie</name>\n\t\t<desc>Script para reinstalar el menu de addons descargando el gamelist del menu retropie original (necesario si cambio los nombres de los addons en gamelist.xml).</desc>\n\t\t<image></image>\n\t\t<playcount>0</playcount>\n\t\t<lastplayed>20180514T205700</lastplayed>\n\t</game>\n</gameList>|' /opt/retropie/configs/all/emulationstation/gamelists/retropie/gamelist.xml
 fi
 
 #Restart EmulationStation
