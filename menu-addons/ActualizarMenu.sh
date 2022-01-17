@@ -81,6 +81,7 @@ fi
 #crear directorio de iconos
 if [ -d /home/pi/RetroPie/retropiemenu/#Menu-Addons/#fixes ]; then
         rm -R /home/pi/RetroPie/retropiemenu/#Menu-Addons/iconos
+        cd /home/pi/RetroPie/retropiemenu/#Menu-Addons/
         echo "Descargando iconos del menu addons..."
         /home/pi/scripts/github-downloader.sh https://github.com/julenvitoria/6goldencoins/tree/master/menu-addons/iconos
 fi
