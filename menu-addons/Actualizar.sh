@@ -2,16 +2,16 @@
 
 clear
 cd /home/pi
-if [ -d /home/pi/RetroPie/retropiemenu/\#Menu-Addons ]; then
+if [ -d '/home/pi/RetroPie/retropiemenu/#Menu-Addons' ]; then
         echo "Directorio Menu-Addons ya fue creado anteriormente."
         echo "Actualizando Menu-Addons..."
         sleep 2
-        rm -R /home/pi/RetroPie/retropiemenu/\#Menu-Addons
-        mkdir /home/pi/RetroPie/retropiemenu/\#Menu-Addons
+        rm -R '/home/pi/RetroPie/retropiemenu/#Menu-Addons'
+        mkdir '/home/pi/RetroPie/retropiemenu/#Menu-Addons'
 else
         echo "Creando directorio Menu-Addons e instalando..."
         sleep 2
-        mkdir /home/pi/RetroPie/retropiemenu/\#Menu-Addons
+        mkdir '/home/pi/RetroPie/retropiemenu/#Menu-Addons'
 fi
 
 #Añadir menu addons al gamelist del menu retropie
@@ -29,8 +29,8 @@ else
 fi
 
 #Instalar al actualizador del menu de addons
-wget -O- https://raw.githubusercontent.com/julenvitoria/6goldencoins/main/menu-addons/ActualizarMenu.sh>/home/pi/RetroPie/retropiemenu/#Menu-Addons/ActualizarMenu.sh
-chmod +x /home/pi/RetroPie/retropiemenu/#Menu-Addons/ActualizarMenu.sh
+wget -O- https://raw.githubusercontent.com/julenvitoria/6goldencoins/main/menu-addons/ActualizarMenu.sh>'/home/pi/RetroPie/retropiemenu/#Menu-Addons/ActualizarMenu.sh'
+chmod +x '/home/pi/RetroPie/retropiemenu/#Menu-Addons/ActualizarMenu.sh'
 if grep -q "ActualizarMenu.sh" /opt/retropie/configs/all/emulationstation/gamelists/retropie/gamelist.xml ; then
         echo "El actualizador de Menu-Addons ya se encuentra gamelist.xml"
 else
@@ -38,16 +38,16 @@ else
 fi
 
 #Instalar el actualizador del sistema
-wget -O- https://raw.githubusercontent.com/julenvitoria/6goldencoins/main/menu-addons/UpdateUpgrade.sh>/home/pi/RetroPie/retropiemenu/#Menu-Addons/UpdateUpgradeSystem.sh
-chmod +x /home/pi/RetroPie/retropiemenu/#Menu-Addons/UpdateUpgradeSystem.sh
+wget -O- https://raw.githubusercontent.com/julenvitoria/6goldencoins/main/menu-addons/UpdateUpgrade.sh>'/home/pi/RetroPie/retropiemenu/#Menu-Addons/UpdateUpgradeSystem.sh'
+chmod +x '/home/pi/RetroPie/retropiemenu/#Menu-Addons/UpdateUpgradeSystem.sh'
 if grep -q "UpdateUpgradeSystem.sh" /opt/retropie/configs/all/emulationstation/gamelists/retropie/gamelist.xml ; then
         echo "El script update y upgrade al sistema ya se encuentra gamelist.xml"
 else
         sed -i 's|</gameList>|\t<game>\n\t\t<path>./#Menu-Addons/UpdateUpgradeSystem.sh</path>\n\t\t<name>Actualizar sistema operativo</name>\n\t\t<desc>Script para actualizar los paquetes del sistema de manera con un solo click ¡¡¡ATENCION: USA BAJO TU PROPIA RESPONSABILIDAD!!!</desc>\n\t\t<image>./#Menu-Addons/iconos/UpdateUpgrade.png</image>\n\t\t<playcount>0</playcount>\n\t\t<lastplayed>20180514T205700</lastplayed>\n\t</game>\n</gameList>|' /opt/retropie/configs/all/emulationstation/gamelists/retropie/gamelist.xml
 fi
 #Instalar actualizador emulators.cfg
-wget -O- https://raw.githubusercontent.com/julenvitoria/6goldencoins/main/menu-addons/ActualizarEmulators.sh>/home/pi/RetroPie/retropiemenu/#Menu-Addons/UpdateEmulators.sh
-chmod +x /home/pi/RetroPie/retropiemenu/#Menu-Addons/UpdateEmulators.sh
+wget -O- https://raw.githubusercontent.com/julenvitoria/6goldencoins/main/menu-addons/ActualizarEmulators.sh>'/home/pi/RetroPie/retropiemenu/#Menu-Addons/UpdateEmulators.sh'
+chmod +x '/home/pi/RetroPie/retropiemenu/#Menu-Addons/UpdateEmulators.sh'
 if grep -q "ActualizarEmulators.sh" /opt/retropie/configs/all/emulationstation/gamelists/retropie/gamelist.xml ; then
         echo "El script para actualizar el archivo emulators.cfg ya se encuentra gamelist.xml"
 else
@@ -55,8 +55,8 @@ else
 fi
 
 #Instalar ConfigsRemaps
-wget -O- https://raw.githubusercontent.com/julenvitoria/6goldencoins/main/menu-addons/ConfigsRemaps.sh>/home/pi/RetroPie/retropiemenu/#Menu-Addons/ConfigsRemaps.sh
-chmod +x /home/pi/RetroPie/retropiemenu/#Menu-Addons/ConfigsRemaps.sh
+wget -O- https://raw.githubusercontent.com/julenvitoria/6goldencoins/main/menu-addons/ConfigsRemaps.sh>'/home/pi/RetroPie/retropiemenu/#Menu-Addons/ConfigsRemaps.sh'
+chmod +x '/home/pi/RetroPie/retropiemenu/#Menu-Addons/ConfigsRemaps.sh'
 if grep -q "ConfigsRemaps.sh" /opt/retropie/configs/all/emulationstation/gamelists/retropie/gamelist.xml ; then
         echo "ConfigsRemaps ya se encuentra gamelist.xml"
 else
@@ -64,8 +64,8 @@ else
 fi
 
 #Instalar restaurar sistemas
-wget -O- https://raw.githubusercontent.com/julenvitoria/6goldencoins/main/menu-addons/restoresystems.sh>/home/pi/RetroPie/retropiemenu/#Menu-Addons/restoresystems.sh
-chmod +x /home/pi/RetroPie/retropiemenu/#Menu-Addons/restoresystems.sh
+wget -O- https://raw.githubusercontent.com/julenvitoria/6goldencoins/main/menu-addons/restoresystems.sh>'/home/pi/RetroPie/retropiemenu/#Menu-Addons/restoresystems.sh'
+chmod +x '/home/pi/RetroPie/retropiemenu/#Menu-Addons/restoresystems.sh'
 if grep -q "restoresystems.sh" /opt/retropie/configs/all/emulationstation/gamelists/retropie/gamelist.xml ; then
         echo "Restore Systems ya se encuentra gamelist.xml"
 else
@@ -73,34 +73,34 @@ else
 fi
 
 #Crear directorio de fixes
-if [ -d /home/pi/RetroPie/retropiemenu/#Menu-Addons/#fixes ]; then
+if [ -d '/home/pi/RetroPie/retropiemenu/#Menu-Addons/#fixes' ]; then
         echo "Directorio fixes ya fue creado anteriormente... Borrando y descargando de nuevo..."
         sleep 2
-        rm -R /home/pi/RetroPie/retropiemenu/#Menu-Addons/#fixes
-        mkdir /home/pi/RetroPie/retropiemenu/#Menu-Addons/#fixes
+        rm -R '/home/pi/RetroPie/retropiemenu/#Menu-Addons/#fixes'
+        mkdir '/home/pi/RetroPie/retropiemenu/#Menu-Addons/#fixes'
 else
         echo "Creando directorio Fixes y descargándolos..."
         sleep 2
-        mkdir /home/pi/RetroPie/retropiemenu/#Menu-Addons/#fixes
+        mkdir '/home/pi/RetroPie/retropiemenu/#Menu-Addons/#fixes'
 fi
 
 #Instalar fix installgamelist
-wget -O- https://raw.githubusercontent.com/julenvitoria/6goldencoins/main/menu-addons/installgamelist.sh>/home/pi/RetroPie/retropiemenu/#Menu-Addons/#fixes/installgamelist.sh
-chmod +x /home/pi/RetroPie/retropiemenu/#Menu-Addons/#fixes/installgamelist.sh
+wget -O- https://raw.githubusercontent.com/julenvitoria/6goldencoins/main/menu-addons/installgamelist.sh>'/home/pi/RetroPie/retropiemenu/#Menu-Addons/#fixes/installgamelist.sh'
+chmod +x '/home/pi/RetroPie/retropiemenu/#Menu-Addons/#fixes/installgamelist.sh'
 if grep -q "installgamelist.sh" /opt/retropie/configs/all/emulationstation/gamelists/retropie/gamelist.xml ; then
         echo "El fix installgamelist ya se encuentra gamelist.xml"
 else
         sed -i 's|</gameList>|\t<game>\n\t\t<path>./#Menu-Addons/#fixes/installgamelist.sh</path>\n\t\t<name>Reinstalar Menu-Addons con gamelist original de retropie</name>\n\t\t<desc>Script para reinstalar el menu de addons descargando el gamelist del menu retropie original (necesario si cambio los nombres de los addons en gamelist.xml).</desc>\n\t\t<image>./#Menu-Addons/iconos/installgamelist.png</image>\n\t\t<playcount>0</playcount>\n\t\t<lastplayed>20180514T205700</lastplayed>\n\t</game>\n</gameList>|' /opt/retropie/configs/all/emulationstation/gamelists/retropie/gamelist.xml
 fi
 #crear directorio de iconos
-if [ -d /home/pi/RetroPie/retropiemenu/\#Menu-Addons/iconos ] ; then
-        rm -R /home/pi/RetroPie/retropiemenu/\#Menu-Addons/iconos
-        cd /home/pi/RetroPie/retropiemenu/\#Menu-Addons/
+if [ -d '/home/pi/RetroPie/retropiemenu/#Menu-Addons/iconos' ] ; then
+        rm -R '/home/pi/RetroPie/retropiemenu/#Menu-Addons/iconos'
+        cd '/home/pi/RetroPie/retropiemenu/#Menu-Addons/'
         echo "Descargando iconos del menu addons..."
         sleep 2
         /home/pi/scripts/github-downloader.sh https://github.com/julenvitoria/6goldencoins/tree/master/menu-addons/iconos
 else
-        cd /home/pi/RetroPie/retropiemenu/\#Menu-Addons
+        cd '/home/pi/RetroPie/retropiemenu/#Menu-Addons'
         /home/pi/scripts/github-downloader.sh https://github.com/julenvitoria/6goldencoins/tree/master/menu-addons/iconos
 fi
 
