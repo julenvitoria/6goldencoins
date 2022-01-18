@@ -2,16 +2,16 @@
 
 clear
 cd /home/pi
-if [ -d /home/pi/RetroPie/retropiemenu/#Menu-Addons ]; then
+if [ -d /home/pi/RetroPie/retropiemenu/\#Menu-Addons ]; then
         echo "Directorio Menu-Addons ya fue creado anteriormente."
         echo "Actualizando Menu-Addons..."
         sleep 2
-        rm -R /home/pi/RetroPie/retropiemenu/#Menu-Addons
-        mkdir /home/pi/RetroPie/retropiemenu/#Menu-Addons
+        rm -R /home/pi/RetroPie/retropiemenu/\#Menu-Addons
+        mkdir /home/pi/RetroPie/retropiemenu/\#Menu-Addons
 else
         echo "Creando directorio Menu-Addons e instalando..."
         sleep 2
-        mkdir /home/pi/RetroPie/retropiemenu/#Menu-Addons
+        mkdir /home/pi/RetroPie/retropiemenu/\#Menu-Addons
 fi
 
 #Añadir menu addons al gamelist del menu retropie
@@ -93,7 +93,7 @@ else
         sed -i 's|</gameList>|\t<game>\n\t\t<path>./#Menu-Addons/#fixes/installgamelist.sh</path>\n\t\t<name>Reinstalar Menu-Addons con gamelist original de retropie</name>\n\t\t<desc>Script para reinstalar el menu de addons descargando el gamelist del menu retropie original (necesario si cambio los nombres de los addons en gamelist.xml).</desc>\n\t\t<image>./#Menu-Addons/iconos/installgamelist.png</image>\n\t\t<playcount>0</playcount>\n\t\t<lastplayed>20180514T205700</lastplayed>\n\t</game>\n</gameList>|' /opt/retropie/configs/all/emulationstation/gamelists/retropie/gamelist.xml
 fi
 #crear directorio de iconos
-if [ -d /home/pi/RetroPie/retropiemenu/#Menu-Addons/iconos ]; then
+if [ -d /home/pi/RetroPie/retropiemenu/#Menu-Addons/iconos ] ; then
         rm -R /home/pi/RetroPie/retropiemenu/#Menu-Addons/iconos
         cd /home/pi/RetroPie/retropiemenu/#Menu-Addons/
         echo "Descargando iconos del menu addons..."
