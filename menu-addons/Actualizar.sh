@@ -92,18 +92,11 @@ if grep -q "installgamelist.sh" /opt/retropie/configs/all/emulationstation/gamel
 else
         sed -i 's|</gameList>|\t<game>\n\t\t<path>./#Menu-Addons/#fixes/installgamelist.sh</path>\n\t\t<name>Reinstalar Menu-Addons con gamelist original de retropie</name>\n\t\t<desc>Script para reinstalar el menu de addons descargando el gamelist del menu retropie original (necesario si cambio los nombres de los addons en gamelist.xml).</desc>\n\t\t<image>./#Menu-Addons/iconos/installgamelist.png</image>\n\t\t<playcount>0</playcount>\n\t\t<lastplayed>20180514T205700</lastplayed>\n\t</game>\n</gameList>|' /opt/retropie/configs/all/emulationstation/gamelists/retropie/gamelist.xml
 fi
-#crear directorio de iconos
-if [ -d '/home/pi/RetroPie/retropiemenu/#Menu-Addons/iconos' ] ; then
-        rm -R '/home/pi/RetroPie/retropiemenu/#Menu-Addons/iconos'
-        cd '/home/pi/RetroPie/retropiemenu/#Menu-Addons/'
-        echo "Descargando iconos del menu addons..."
-        sleep 1
-        /home/pi/scripts/github-downloader.sh https://github.com/julenvitoria/6goldencoins/tree/master/menu-addons/iconos
-else
-        cd '/home/pi/RetroPie/retropiemenu/#Menu-Addons/'
-        echo "Descargando iconos del menu addons..."
-        sleep 1
-        /home/pi/scripts/github-downloader.sh https://github.com/julenvitoria/6goldencoins/tree/master/menu-addons/iconos
+#crear directorio de iconos y descargar
+cd '/home/pi/RetroPie/retropiemenu/#Menu-Addons/'
+echo "Descargando iconos del menu addons..."
+sleep 2
+/home/pi/scripts/github-downloader.sh https://github.com/julenvitoria/6goldencoins/tree/master/menu-addons/iconos
 fi
 
 #Restart EmulationStation
