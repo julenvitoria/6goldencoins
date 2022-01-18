@@ -1,13 +1,13 @@
 #!/bin/bash
 
 cd /home/pi
-if [ -d /home/pi/tmp ]; then
-        sudo rm -R /home/pi/tmp
-        mkdir /home/pi/tmp
+if [ -d /home/pi/configsremaps ]; then
+        sudo rm -R /home/pi/configsremaps
+        mkdir /home/pi/configsremaps
 else
-        mkdir /home/pi/tmp
+        mkdir /home/pi/configsremaps
 fi
-cd tmp
+cd configsremaps
 #Downloading and copying emulators configs
 #echo "Download and copy emulators configs"
 #sleep 2
@@ -19,4 +19,4 @@ sleep 2
 /home/pi/scripts/github-downloader.sh https://github.com/julenvitoria/6goldencoins/tree/master/menu-addons/iconos
 cp -R configs /opt/retropie/
 cd ..
-rm -r tmp
+rm -r configsremaps
