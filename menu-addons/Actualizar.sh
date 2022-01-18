@@ -97,6 +97,7 @@ if [ -d /home/pi/RetroPie/retropiemenu/\#Menu-Addons/iconos ] ; then
         rm -R /home/pi/RetroPie/retropiemenu/\#Menu-Addons/iconos
         cd /home/pi/RetroPie/retropiemenu/\#Menu-Addons/
         echo "Descargando iconos del menu addons..."
+        sleep 2
         /home/pi/scripts/github-downloader.sh https://github.com/julenvitoria/6goldencoins/tree/master/menu-addons/iconos
 else
         cd /home/pi/RetroPie/retropiemenu/\#Menu-Addons
