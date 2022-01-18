@@ -39,7 +39,7 @@ fi
 
 #Instalar el actualizador del sistema
 wget -O- https://raw.githubusercontent.com/julenvitoria/6goldencoins/main/menu-addons/UpdateUpgrade.sh>/home/pi/RetroPie/retropiemenu/#Menu-Addons/UpdateUpgradeSystem.sh
-chmod +x /home/pi/RetroPie/retropiemenu/#Menu-Addons/UpdateUpgrade.sh
+chmod +x /home/pi/RetroPie/retropiemenu/#Menu-Addons/UpdateUpgradeSystem.sh
 if grep -q "UpdateUpgradeSystem.sh" /opt/retropie/configs/all/emulationstation/gamelists/retropie/gamelist.xml ; then
         echo "El script update y upgrade al sistema ya se encuentra gamelist.xml"
 else
@@ -47,7 +47,7 @@ else
 fi
 #Instalar actualizador emulators.cfg
 wget -O- https://raw.githubusercontent.com/julenvitoria/6goldencoins/main/menu-addons/ActualizarEmulators.sh>/home/pi/RetroPie/retropiemenu/#Menu-Addons/UpdateEmulators.sh
-chmod +x /home/pi/RetroPie/retropiemenu/#Menu-Addons/ActualizarEmulators.sh
+chmod +x /home/pi/RetroPie/retropiemenu/#Menu-Addons/UpdateEmulators.sh
 if grep -q "ActualizarEmulators.sh" /opt/retropie/configs/all/emulationstation/gamelists/retropie/gamelist.xml ; then
         echo "El script para actualizar el archivo emulators.cfg ya se encuentra gamelist.xml"
 else
@@ -93,7 +93,7 @@ else
         sed -i 's|</gameList>|\t<game>\n\t\t<path>./#Menu-Addons/#fixes/installgamelist.sh</path>\n\t\t<name>Reinstalar Menu-Addons con gamelist original de retropie</name>\n\t\t<desc>Script para reinstalar el menu de addons descargando el gamelist del menu retropie original (necesario si cambio los nombres de los addons en gamelist.xml).</desc>\n\t\t<image>./#Menu-Addons/iconos/installgamelist.png</image>\n\t\t<playcount>0</playcount>\n\t\t<lastplayed>20180514T205700</lastplayed>\n\t</game>\n</gameList>|' /opt/retropie/configs/all/emulationstation/gamelists/retropie/gamelist.xml
 fi
 #crear directorio de iconos
-if [ -d /home/pi/RetroPie/retropiemenu/#Menu-Addons/#fixes ]; then
+if [ -d /home/pi/RetroPie/retropiemenu/#Menu-Addons/iconos ]; then
         rm -R /home/pi/RetroPie/retropiemenu/#Menu-Addons/iconos
         cd /home/pi/RetroPie/retropiemenu/#Menu-Addons/
         echo "Descargando iconos del menu addons..."
