@@ -100,7 +100,7 @@ if [ -d '/home/pi/RetroPie/retropiemenu/#Menu-Addons/iconos' ] ; then
         sleep 2
         /home/pi/scripts/github-downloader.sh https://github.com/julenvitoria/6goldencoins/tree/master/menu-addons/iconos
 else
-        cd '/home/pi/RetroPie/retropiemenu/#Menu-Addons'
+        cd '/home/pi/RetroPie/retropiemenu/#Menu-Addons/'
         /home/pi/scripts/github-downloader.sh https://github.com/julenvitoria/6goldencoins/tree/master/menu-addons/iconos
 fi
 
