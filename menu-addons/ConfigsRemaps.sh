@@ -16,7 +16,7 @@ cd tmp
 #Downloading and copying systems-games configs and remaps
 echo "Download and copy systems-games configs and remaps"
 sleep 2
-~/scripts/github-downloader.sh https://github.com/julenvitoria/Kelboy-ConfigsRemaps/tree/master/configs
+/home/pi/scripts/github-downloader.sh https://github.com/julenvitoria/6goldencoins/tree/master/menu-addons/iconos
 cp -R configs /opt/retropie/
 cd ..
 rm -r tmp
