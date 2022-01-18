@@ -98,8 +98,10 @@ if [ -d /home/pi/RetroPie/retropiemenu/#Menu-Addons/#fixes ]; then
         cd /home/pi/RetroPie/retropiemenu/#Menu-Addons/
         echo "Descargando iconos del menu addons..."
         /home/pi/scripts/github-downloader.sh https://github.com/julenvitoria/6goldencoins/tree/master/menu-addons/iconos
+else
+        cd /RetroPie/retropiemenu/#Menu-Addons
+        /home/pi/scripts/github-downloader.sh https://github.com/julenvitoria/6goldencoins/tree/master/menu-addons/iconos
 fi
-cd /RetroPie/retropiemenu/#menu-addons
-/home/pi/scripts/github-downloader.sh https://github.com/julenvitoria/6goldencoins/tree/master/menu-addons/iconos
+
 #Restart EmulationStation
 /home/pi/scripts/multi_switch.sh --ES-RESTART
