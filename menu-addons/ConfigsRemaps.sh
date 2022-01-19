@@ -12,6 +12,7 @@ cd configsremaps
 echo "Descargando y copiando configuraciones y remapeos de sistemas al directorio configs..."
 sleep 2
 /home/pi/scripts/github-downloader.sh https://github.com/julenvitoria/6goldencoins/tree/master/configs
+echo "Copiando archivos, por favor espera un momento..."
 cp -R configs /opt/retropie/
 cd ..
 rm -r configsremaps
