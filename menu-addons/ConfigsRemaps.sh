@@ -1,11 +1,12 @@
 #!/bin/bash
 
 cd /home/pi
-if [ -d /home/pi/configsremaps ]; then
-        sudo rm -R /home/pi/configsremaps
-        mkdir /home/pi/configsremaps
+if [ -d '/home/pi/configsremaps' ] ;
+then
+        sudo rm -R '/home/pi/configsremaps'
+        mkdir '/home/pi/configsremaps'
 else
-        mkdir /home/pi/configsremaps
+        mkdir '/home/pi/configsremaps'
 fi
 cd configsremaps
 echo "Descargando y copiando configuraciones y remapeos de sistemas al directorio configs..."
