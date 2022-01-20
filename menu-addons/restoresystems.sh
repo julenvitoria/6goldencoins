@@ -55,6 +55,13 @@ else
         sudo sed -i 's|</systemList>|  <system>\n    <name>Light-Gun-collection</name>\n    <fullname>Light-Gun-collection</fullname>\n    <path>/home/pi/RetroPie/roms/mame-advmame</path>\n    <extension>.zip .ZIP .7z .7Z</extension>\n    <command>/opt/retropie/supplementary/runcommand/runcommand.sh 0 _SYS_ mame-advmame %ROM%</command>\n    <platform>arcade</platform>\n    <theme>Light-Gun-collection</theme>\n  </system>\n</systemList>|' /etc/emulationstation/es_systems.cfg
 fi
 
+#pokemon mini
+if grep -q "<name>pokemini</name>" /etc/emulationstation/es_systems.cfg ; then
+        echo "Sistema Pokemon Mini ya existe, nada que modificar..."
+else
+        sudo sed -i 's|</systemList>|  <system>\n    <name>pokemini</name>\n    <fullname>Pokemon Mini</fullname>\n    <path>/home/pi/RetroPie/roms/pokemini</path>\n    <extension>.min .zip .MIN .ZIP</extension>\n    <command>/opt/retropie/supplementary/runcommand/runcommand.sh 0 _SYS_ pokemini %ROM%</command>\n    <platform>pokemini</platform>\n    <theme>pokemini</theme>\n  </system>\n</systemList>|' /etc/emulationstation/es_systems.cfg
+fi
+
 #kodi
 if grep -q "<name>kodi</name>" /etc/emulationstation/es_systems.cfg ; then
         echo "Sistema kodi ya existe, nada que modificar..."
