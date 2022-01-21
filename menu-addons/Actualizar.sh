@@ -1,8 +1,8 @@
 #!/bin/bash
 
-echo ""
-echo ""
 clear
+echo ""
+echo ""
 cd /home/pi
 if [ -d '/home/pi/RetroPie/retropiemenu/#Menu-Addons' ]; then
         echo "Directorio Menu-Addons ya fue creado anteriormente."
