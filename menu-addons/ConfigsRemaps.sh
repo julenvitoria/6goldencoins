@@ -1,5 +1,7 @@
 #!/bin/bash
 
+echo ""
+echo ""
 cd /home/pi
 if [ -d '/home/pi/configsremaps' ] ;
 then

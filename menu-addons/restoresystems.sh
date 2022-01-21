@@ -3,7 +3,7 @@
 echo ""
 echo ""
 echo "Verificando y restaurando los sistemas que faltan... ;)"
-sleep 5
+sleep 2
 
 #mod es_systems.cfg file
 
