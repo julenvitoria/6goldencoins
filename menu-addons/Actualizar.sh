@@ -94,6 +94,33 @@ else
         sed -i 's|</gameList>|\t<game>\n\t\t<path>./#Menu-Addons/#fixes/installgamelist.sh</path>\n\t\t<name>Reinstalar Menu-Addons con gamelist original de retropie</name>\n\t\t<desc>Script para reinstalar el menu de addons descargando el gamelist del menu retropie original (necesario si por ejemplo cambian los nombres de los addons en gamelist.xml).</desc>\n\t\t<image>./#Menu-Addons/iconos/installgamelist.png</image>\n\t\t<playcount>0</playcount>\n\t\t<lastplayed>20180514T205700</lastplayed>\n\t</game>\n</gameList>|' /opt/retropie/configs/all/emulationstation/gamelists/retropie/gamelist.xml
 fi
 
+#Instalar fix lr-gw
+wget -O- https://raw.githubusercontent.com/julenvitoria/6goldencoins/main/menu-addons/gw.sh>'/home/pi/RetroPie/retropiemenu/#Menu-Addons/#fixes/gw.sh'
+chmod +x '/home/pi/RetroPie/retropiemenu/#Menu-Addons/#fixes/gw.sh'
+if grep -q "gw.sh" /opt/retropie/configs/all/emulationstation/gamelists/retropie/gamelist.xml ; then
+        echo "El fix lr-gw ya se encuentra gamelist.xml"
+else
+        sed -i 's|</gameList>|\t<game>\n\t\t<path>./#Menu-Addons/#fixes/gw.sh</path>\n\t\t<name>Fix core lr-gw</name>\n\t\t<desc>Script para reinstalar core anterior de Game and Watch para que funcione Donkey King 2. Aplicar si en el caso de actualizar el core se cuelga dicho juego al seleccionar Game A o Game B.</desc>\n\t\t<image>./#Menu-Addons/iconos/gw.png</image>\n\t\t<playcount>0</playcount>\n\t\t<lastplayed>20180514T205700</lastplayed>\n\t</game>\n</gameList>|' /opt/retropie/configs/all/emulationstation/gamelists/retropie/gamelist.xml
+fi
+
+#Instalar fix lr-vice
+wget -O- https://raw.githubusercontent.com/julenvitoria/6goldencoins/main/menu-addons/vice.sh>'/home/pi/RetroPie/retropiemenu/#Menu-Addons/#fixes/vice.sh'
+chmod +x '/home/pi/RetroPie/retropiemenu/#Menu-Addons/#fixes/vice.sh'
+if grep -q "vice.sh" /opt/retropie/configs/all/emulationstation/gamelists/retropie/gamelist.xml ; then
+        echo "El fix lr-vice ya se encuentra gamelist.xml"
+else
+        sed -i 's|</gameList>|\t<game>\n\t\t<path>./#Menu-Addons/#fixes/vice.sh</path>\n\t\t<name>Fix core lr-vice</name>\n\t\t<desc>Script para reinstalar core anterior de Commodore 64 (lr-vice) para que funcionen correctamente los juegos incluidos en la imagen. Aplicar si despues de actualizar el core no cargan bien los juegos o no funcionan los mapeados.</desc>\n\t\t<image>./#Menu-Addons/iconos/vice.png</image>\n\t\t<playcount>0</playcount>\n\t\t<lastplayed>20180514T205700</lastplayed>\n\t</game>\n</gameList>|' /opt/retropie/configs/all/emulationstation/gamelists/retropie/gamelist.xml
+fi
+
+#Instalar fix emulationstation
+wget -O- https://raw.githubusercontent.com/julenvitoria/6goldencoins/main/menu-addons/emulationstation.sh>'/home/pi/RetroPie/retropiemenu/#Menu-Addons/#fixes/emulationstation.sh'
+chmod +x '/home/pi/RetroPie/retropiemenu/#Menu-Addons/#fixes/emulationstation.sh'
+if grep -q "emulationstation.sh" /opt/retropie/configs/all/emulationstation/gamelists/retropie/gamelist.xml ; then
+        echo "El fix emulationstation ya se encuentra gamelist.xml"
+else
+        sed -i 's|</gameList>|\t<game>\n\t\t<path>./#Menu-Addons/#fixes/emulationstation.sh</path>\n\t\t<name>Fix emulationstation español</name>\n\t\t<desc>Script para reinstalar EmulationStation traducido a español gracias a @Jcarliman.</desc>\n\t\t<image>./#Menu-Addons/iconos/emulationstation.png</image>\n\t\t<playcount>0</playcount>\n\t\t<lastplayed>20180514T205700</lastplayed>\n\t</game>\n</gameList>|' /opt/retropie/configs/all/emulationstation/gamelists/retropie/gamelist.xml
+fi
+
 #crear directorio de iconos y descargar
 cd '/home/pi/RetroPie/retropiemenu/#Menu-Addons/'
 echo "Descargando iconos del menu addons..."
