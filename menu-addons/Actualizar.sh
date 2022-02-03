@@ -112,6 +112,15 @@ else
         sed -i 's|</gameList>|\t<game>\n\t\t<path>./#Menu-Addons/#fixes/vice.sh</path>\n\t\t<name>Fix core lr-vice</name>\n\t\t<desc>Script para reinstalar core anterior de Commodore 64 (lr-vice) para que funcionen correctamente los juegos incluidos en la imagen. Aplicar si despues de actualizar el core no cargan bien los juegos o no funcionan los mapeados.</desc>\n\t\t<image>./#Menu-Addons/iconos/vice.png</image>\n\t\t<playcount>0</playcount>\n\t\t<lastplayed>20180514T205700</lastplayed>\n\t</game>\n</gameList>|' /opt/retropie/configs/all/emulationstation/gamelists/retropie/gamelist.xml
 fi
 
+#Instalar fix lr-fbneo
+wget -O- https://raw.githubusercontent.com/julenvitoria/6goldencoins/main/menu-addons/fbneo.sh>'/home/pi/RetroPie/retropiemenu/#Menu-Addons/#fixes/fbneo.sh'
+chmod +x '/home/pi/RetroPie/retropiemenu/#Menu-Addons/#fixes/fbneo.sh'
+if grep -q "fbneo.sh" /opt/retropie/configs/all/emulationstation/gamelists/retropie/gamelist.xml ; then
+        echo "El fix lr-fbneo ya se encuentra gamelist.xml"
+else
+        sed -i 's|</gameList>|\t<game>\n\t\t<path>./#Menu-Addons/#fixes/fbneo.sh</path>\n\t\t<name>Fix core lr-fbneo</name>\n\t\t<desc>Script para reinstalar core anterior de Arcade FinalBurnNeo (lr-fbneo) para aquellos casos en los que tras actualizar dicho core no funciona algun juego incluido en la imagen.</desc>\n\t\t<image>./#Menu-Addons/iconos/fbneo.png</image>\n\t\t<playcount>0</playcount>\n\t\t<lastplayed>20180514T205700</lastplayed>\n\t</game>\n</gameList>|' /opt/retropie/configs/all/emulationstation/gamelists/retropie/gamelist.xml
+fi
+
 #Instalar fix emulationstation
 wget -O- https://raw.githubusercontent.com/julenvitoria/6goldencoins/main/menu-addons/emulationstation.sh>'/home/pi/RetroPie/retropiemenu/#Menu-Addons/#fixes/emulationstation.sh'
 chmod +x '/home/pi/RetroPie/retropiemenu/#Menu-Addons/#fixes/emulationstation.sh'
