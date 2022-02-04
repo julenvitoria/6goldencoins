@@ -27,4 +27,5 @@ if [ -f "/opt/retropie/configs/c64/VICE x64/VICE x64.rmp" ]; then
     rm "/opt/retropie/configs/c64/VICE x64/VICE x64.rmp"
 fi
 cd '/opt/retropie/configs/c64/VICE x64/'
-/home/pi/scripts/github-downloader.sh https://github.com/julenvitoria/6goldencoins/tree/master/menu-addons/patchs/VICE x64.rmp
+/home/pi/scripts/github-downloader.sh https://github.com/julenvitoria/6goldencoins/blob/main/menu-addons/patchs/VICE%20x64.rmp
+cd -
