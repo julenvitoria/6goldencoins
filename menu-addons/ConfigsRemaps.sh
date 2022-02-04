@@ -2,6 +2,16 @@
 
 echo ""
 echo ""
+echo ""
+if [ ! "`ping -c 1 github.com`" ]
+then
+  echo "No hay conexion con GitHub.com"
+  sleep 3
+  exit 0
+fi
+
+echo "Conexion con GitHub.com establecida, continuando..."
+sleep 2
 cd /home/pi
 if [ -d '/home/pi/configsremaps' ] ;
 then
