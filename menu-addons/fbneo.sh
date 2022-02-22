@@ -26,6 +26,7 @@ cd /home/pi/scripts/tmp/
 /home/pi/scripts/github-downloader.sh https://github.com/julenvitoria/6goldencoins/tree/master/menu-addons/patchs/lr-fbneo
 sudo rm -R /opt/retropie/libretrocores/lr-fbneo
 sudo cp -R lr-fbneo /opt/retropie/libretrocores/
+sudo chmod +x /opt/retropie/libretrocores/lr-fbneo/fbneo_libretro.so
 cd ~
 rm -r "/home/pi/scripts/tmp/"
 sleep 2

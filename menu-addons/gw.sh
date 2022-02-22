@@ -26,6 +26,7 @@ cd /home/pi/scripts/tmp/
 /home/pi/scripts/github-downloader.sh https://github.com/julenvitoria/6goldencoins/tree/master/menu-addons/patchs/lr-gw
 sudo rm -R /opt/retropie/libretrocores/lr-gw
 sudo cp -R lr-gw /opt/retropie/libretrocores/
+sudo chmod +x /opt/retropie/libretrocores/lr-gw/gw_libretro.so
 cd ~
 rm -r "/home/pi/scripts/tmp/"
 sleep 2
