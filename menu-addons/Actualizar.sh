@@ -127,7 +127,7 @@ chmod +x '/home/pi/RetroPie/retropiemenu/#Menu-Addons/#fixes/scummvm.sh'
 if grep -q "scummvm.sh" /opt/retropie/configs/all/emulationstation/gamelists/retropie/gamelist.xml ; then
         echo "El fix lr-scummvm ya se encuentra gamelist.xml"
 else
-        sed -i 's|</gameList>|\t<game>\n\t\t<path>./#Menu-Addons/#fixes/fbneo.sh</path>\n\t\t<name>Fix core lr-scummvm</name>\n\t\t<desc>Script para aplicar fix que restaura una version anterior de lr-scummvm debido a que en la ultima version algun control no funciona correctamente. Por ejemplo en Monkey Island 2 no se puede pasar la pantalla de las claves porque no se emula la tecla 5.</desc>\n\t\t<image>./#Menu-Addons/iconos/fbneo.png</image>\n\t\t<playcount>0</playcount>\n\t\t<lastplayed>20180514T205700</lastplayed>\n\t</game>\n</gameList>|' /opt/retropie/configs/all/emulationstation/gamelists/retropie/gamelist.xml
+        sed -i 's|</gameList>|\t<game>\n\t\t<path>./#Menu-Addons/#fixes/scummvm.sh</path>\n\t\t<name>Fix core lr-scummvm</name>\n\t\t<desc>Script para aplicar fix que restaura una version anterior de lr-scummvm debido a que en la ultima version algun control no funciona correctamente. Por ejemplo en Monkey Island 2 no se puede pasar la pantalla de las claves porque no se emula la tecla 5.</desc>\n\t\t<image>./#Menu-Addons/iconos/fbneo.png</image>\n\t\t<playcount>0</playcount>\n\t\t<lastplayed>20180514T205700</lastplayed>\n\t</game>\n</gameList>|' /opt/retropie/configs/all/emulationstation/gamelists/retropie/gamelist.xml
 fi
 
 #Instalar fix emulationstation
