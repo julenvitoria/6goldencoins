@@ -12,7 +12,7 @@ if grep -q "<name>openbor</name>" /opt/retropie/configs/all/emulationstation/es_
         echo "Sistema OpenBOR ya existe, nada que modificar..."
 else
         echo "Añadiendo OPENBOR"
-        sudo sed -i 's|</systemList>|  <system>\n    <name>openbor</name>\n    <fullname>OpenBOR</fullname>\n    <path>/home/pi/RetroPie/roms/ports/openbor</path>\n    <extension>.bor .BOR .Bor .PAK .pak .Pak .PAk .paK .pAk</extension>\n    <command>/opt/retropie/supplementary/runcommand/runcommand.sh 0 _PORT_ openbor %ROM%</command>\n    <platform>openbor</platform>\n    <theme>openbor</theme>\n  </system>\n</systemList>|' /opt/retropie/configs/all/emulationstation/es_systems.cfg
+        sudo sed -i 's|</systemList>|  <system>\n    <name>openbor</name>\n    <fullname>OpenBOR</fullname>\n    <path>/home/pi/RetroPie/roms/openbor</path>\n    <extension>.bor .BOR .Bor .PAK .pak .Pak .PAk .paK .pAk</extension>\n    <command>/opt/retropie/supplementary/runcommand/runcommand.sh 0 _PORT_ openbor %ROM%</command>\n    <platform>openbor</platform>\n    <theme>openbor</theme>\n  </system>\n</systemList>|' /opt/retropie/configs/all/emulationstation/es_systems.cfg
 fi
 
 #pce-cd
