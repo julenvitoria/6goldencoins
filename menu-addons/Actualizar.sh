@@ -100,7 +100,7 @@ chmod +x '/home/pi/RetroPie/retropiemenu/#Menu-Addons/#fixes/gw.sh'
 if grep -q "gw.sh" /opt/retropie/configs/all/emulationstation/gamelists/retropie/gamelist.xml ; then
         echo "El fix lr-gw ya se encuentra gamelist.xml"
 else
-        sed -i 's|</gameList>|\t<game>\n\t\t<path>./#Menu-Addons/#fixes/gw.sh</path>\n\t\t<name>Fix core lr-gw para Game&Watch</name>\n\t\t<desc>Script para reinstalar core anterior de Game and Watch para que funcione Donkey Kong Multi Screen. Aplicar si en el caso de actualizar el core se cuelga dicho juego al seleccionar Game A o Game B.</desc>\n\t\t<image>./#Menu-Addons/iconos/gw.png</image>\n\t\t<playcount>0</playcount>\n\t\t<lastplayed>20180514T205700</lastplayed>\n\t</game>\n</gameList>|' /opt/retropie/configs/all/emulationstation/gamelists/retropie/gamelist.xml
+        sed -i 's|</gameList>|\t<game>\n\t\t<path>./#Menu-Addons/#fixes/gw.sh</path>\n\t\t<name>Fix core lr-gw para Game and Watch</name>\n\t\t<desc>Script para reinstalar core anterior de Game and Watch para que funcione Donkey Kong Multi Screen. Aplicar si en el caso de actualizar el core se cuelga dicho juego al seleccionar Game A o Game B.</desc>\n\t\t<image>./#Menu-Addons/iconos/gw.png</image>\n\t\t<playcount>0</playcount>\n\t\t<lastplayed>20180514T205700</lastplayed>\n\t</game>\n</gameList>|' /opt/retropie/configs/all/emulationstation/gamelists/retropie/gamelist.xml
 fi
 
 #Instalar fix lr-vice
