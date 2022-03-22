@@ -23,10 +23,12 @@ echo "Descargando core lr-gw y aplicando fix..."
 echo ""
 mkdir /home/pi/scripts/tmp/
 cd /home/pi/scripts/tmp/
-/home/pi/scripts/github-downloader.sh https://github.com/julenvitoria/6goldencoins/tree/master/menu-addons/patchs/lr-gw
-sudo rm -R /opt/retropie/libretrocores/lr-gw
-sudo cp -R lr-gw /opt/retropie/libretrocores/
-sudo chmod +x /opt/retropie/libretrocores/lr-gw/gw_libretro.so
+/home/pi/scripts/github-downloader.sh https://github.com/julenvitoria/6goldencoinspi4/tree/master/menu-addons/patchs/retroarch
+sudo rm -R /opt/retropie/emulators/retroarch/bin
+sudo rm -R /opt/retropie/emulators/retroarch/etc
+chmod +x retroarch/bin/retroarch
+chmod +x retroarch/bin/retroarch-cg2glsl
+sudo cp -R retroarch/* /opt/retropie/emulators/retroarch/
 cd ~
 rm -r "/home/pi/scripts/tmp/"
 sleep 2
