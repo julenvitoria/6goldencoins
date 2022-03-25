@@ -148,6 +148,15 @@ else
         sed -i 's|</gameList>|\t<game>\n\t\t<path>./#Menu-Addons/#fixes/emulationstation.sh</path>\n\t\t<name>Fix emulationstation español</name>\n\t\t<desc>Script para reinstalar EmulationStation traducido a español gracias a @Jcarliman.</desc>\n\t\t<image>./#Menu-Addons/iconos/emulationstation.png</image>\n\t\t<playcount>0</playcount>\n\t\t<lastplayed>20180514T205700</lastplayed>\n\t</game>\n</gameList>|' /opt/retropie/configs/all/emulationstation/gamelists/retropie/gamelist.xml
 fi
 
+#Instalar fix DOSbox
+wget -O- https://raw.githubusercontent.com/julenvitoria/6goldencoins/main/menu-addons/DOSbox.sh>'/home/pi/RetroPie/retropiemenu/#Menu-Addons/#fixes/DOSbox.sh'
+chmod +x '/home/pi/RetroPie/retropiemenu/#Menu-Addons/#fixes/DOSbox.sh'
+if grep -q "DOSbox.sh" /opt/retropie/configs/all/emulationstation/gamelists/retropie/gamelist.xml ; then
+        echo "El fix DOSbox ya se encuentra gamelist.xml"
+else
+        sed -i 's|</gameList>|\t<game>\n\t\t<path>./#Menu-Addons/#fixes/DOSbox.sh</path>\n\t\t<name>Fix DOSbox no arranca</name>\n\t\t<desc>Script para descargar archivos de opciones de los juegos y modificar la ubicacion de otros para que los juegos de MS-DOS (PC) funcionen de manera correcta.</desc>\n\t\t<image>./#Menu-Addons/iconos/DOSbox.png</image>\n\t\t<playcount>0</playcount>\n\t\t<lastplayed>20180514T205700</lastplayed>\n\t</game>\n</gameList>|' /opt/retropie/configs/all/emulationstation/gamelists/retropie/gamelist.xml
+fi
+
 #crear directorio de iconos y descargar
 cd '/home/pi/RetroPie/retropiemenu/#Menu-Addons/'
 echo "Descargando iconos del menu addons..."
