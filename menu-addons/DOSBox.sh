@@ -24,6 +24,7 @@ echo ""
 mkdir /home/pi/scripts/tmp/
 cd /home/pi/scripts/tmp/
 /home/pi/scripts/github-downloader.sh https://github.com/julenvitoria/6goldencoins/tree/master/menu-addons/patchs/dosbox/
+cd dosbox
 cp -R DOSBox /opt/retropie/configs/all/retroarch/config/
 cp dr.cfg /home/pi/RetroPie/roms/msdos/Death_Rally/
 cd ~
