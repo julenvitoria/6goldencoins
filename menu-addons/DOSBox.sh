@@ -19,7 +19,7 @@ if [ -d "/home/pi/scripts/tmp/" ]; then
     rm -r "/home/pi/scripts/tmp/"
     sleep 1
 fi
-echo "Descargando core lr-gw y aplicando fix..."
+echo "Descargando fix DOSBox y aplicando fix..."
 echo ""
 mkdir /home/pi/scripts/tmp/
 cd /home/pi/scripts/tmp/
