@@ -27,6 +27,7 @@ cd /home/pi/scripts/tmp/
 sudo rm -R /opt/retropie/libretrocores/lr-scummvm
 sudo cp -R lr-scummvm /opt/retropie/libretrocores/
 sudo chmod +x /opt/retropie/libretrocores/lr-scummvm/scummvm_libretro.so
+sudo chmod +x /opt/retropie/libretrocores/lr-scummvm/romdir-launcher.sh
 cd ~
 rm -r "/home/pi/scripts/tmp/"
 sleep 2
