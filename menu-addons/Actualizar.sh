@@ -149,13 +149,13 @@ else
 fi
 
 #Instalar fix DOSBox
-wget -O- https://raw.githubusercontent.com/julenvitoria/6goldencoins/main/menu-addons/DOSBox.sh>'/home/pi/RetroPie/retropiemenu/#Menu-Addons/#fixes/DOSBox.sh'
-chmod +x '/home/pi/RetroPie/retropiemenu/#Menu-Addons/#fixes/DOSBox.sh'
-if grep -q "DOSBox.sh" /opt/retropie/configs/all/emulationstation/gamelists/retropie/gamelist.xml ; then
-        echo "El fix DOSBox ya se encuentra gamelist.xml"
-else
-        sed -i 's|</gameList>|\t<game>\n\t\t<path>./#Menu-Addons/#fixes/DOSBox.sh</path>\n\t\t<name>Fix DOSBox no arranca</name>\n\t\t<desc>Script para descargar archivos de opciones de los juegos y modificar la ubicacion de otros para que los juegos de MS-DOS (PC) funcionen de manera correcta.</desc>\n\t\t<image>./#Menu-Addons/iconos/DOSBox.png</image>\n\t\t<playcount>0</playcount>\n\t\t<lastplayed>20180514T205700</lastplayed>\n\t</game>\n</gameList>|' /opt/retropie/configs/all/emulationstation/gamelists/retropie/gamelist.xml
-fi
+#wget -O- https://raw.githubusercontent.com/julenvitoria/6goldencoins/main/menu-addons/DOSBox.sh>'/home/pi/RetroPie/retropiemenu/#Menu-Addons/#fixes/DOSBox.sh'
+#chmod +x '/home/pi/RetroPie/retropiemenu/#Menu-Addons/#fixes/DOSBox.sh'
+#if grep -q "DOSBox.sh" /opt/retropie/configs/all/emulationstation/gamelists/retropie/gamelist.xml ; then
+#        echo "El fix DOSBox ya se encuentra gamelist.xml"
+#else
+#        sed -i 's|</gameList>|\t<game>\n\t\t<path>./#Menu-Addons/#fixes/DOSBox.sh</path>\n\t\t<name>Fix DOSBox no arranca</name>\n\t\t<desc>Script para descargar archivos de opciones de los juegos y modificar la ubicacion de otros para que los juegos de MS-DOS (PC) funcionen de manera correcta.</desc>\n\t\t<image>./#Menu-Addons/iconos/DOSBox.png</image>\n\t\t<playcount>0</playcount>\n\t\t<lastplayed>20180514T205700</lastplayed>\n\t</game>\n</gameList>|' /opt/retropie/configs/all/emulationstation/gamelists/retropie/gamelist.xml
+#fi
 
 #crear directorio de iconos y descargar
 cd '/home/pi/RetroPie/retropiemenu/#Menu-Addons/'
